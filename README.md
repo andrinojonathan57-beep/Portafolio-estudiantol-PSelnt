@@ -21,3 +21,9 @@ Crear algoritmos mediante pseudocódigo.
 ## Autor
 Jonta
 *Repositorio creado con fines educativos y de aprendizaje.*
+## Índice de ejercicios
+
+Aquí se encuentran mis prácticas de programación:
+
+- [Calificaciones](Calificaciones.psc)
+- [Círculo](Circulo.psc)- [Mayor tres](Mayor_Tres.psc)
