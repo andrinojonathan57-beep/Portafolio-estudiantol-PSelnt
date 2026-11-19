@@ -3,7 +3,7 @@ Algoritmo Clasificacion_De_Personas
 	Escribir "Ingrese Edad", Edad
 	Leer Edad
 	Si Edad <18 Entonces
-		Escribir "La persona es un niño"
+		Escribir "La persona es un niÃ±o"
 	FinSi
 	Si Edad >18 Entonces
 		Escribir "La persona es adulta"
