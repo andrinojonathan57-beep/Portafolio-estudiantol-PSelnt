@@ -13,3 +13,6 @@ Jonta
 *Repositorio creado con fines educativos y de aprendizaje.*
 ## Índice de ejercicios
 A continuación se presentan los ejercicios realizados durante mi aprendizaje de programación.
+## Mejoras del proyecto
+
+Este repositorio reúne mis ejercicios de PSeInt y HTML, organizados en carpetas para facilitar su consulta y revisión.
