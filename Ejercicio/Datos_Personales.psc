@@ -5,5 +5,5 @@ Algoritmo Datos_Personales
 	Leer nombre
 	Escribir "Ingrese Edad"
 	Leer Edad
-	Escribir "Hola ", nombre, "Tienes ", edad, "años. Bienvenido!"
+	Escribir "Hola ", nombre, "Tienes ", edad, "aÃ±os. Bienvenido!"
 FinAlgoritmo
