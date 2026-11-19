@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .tarjeta{
+                width: 100%;
+                box-sizing: border-box;
+                Background-color: white;
+                padding: 15px;
+                border-radius: 15px;
+box-shadow: 0 4px 10px gray;
+overflow: hidden;
+            }
+            .tarjeta img{
+width: 100%;
+height: 180px;
+object-fit: cover;
+            }
+            .categoria{
+                background-color: lightblue;
+color: darkblue;
+padding: 5px 10px;
+border-radius: 20px;
+font-size: 12px;
+            }
+            .tarjeta h2{
+                font-size: 22px;
+                margin: 15px 0 10px;
+                color : #333;
+            }
+            .tarjeta p {
+color: #666;
+font-size: 14px;
+line-height: 1.5;
+}
+.tarjeta small {
+    color: gray;
+    font-size: 12px;
+}
+.contenedor {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+            </style>
+    </head>
+    <body>
+       
+        <div class="contenedor">
+        <div class="tarjeta">
+            <img src="https://www.royalcaribbean.com/media-assets/pmc/content/dam/shore-x/paris-le-havre-leh/lh17-paris-sightseeing-without-lunch/stock-photo-skyline-of-paris-with-eiffel-tower-at-sunset-in-paris-france-eiffel-tower-is-one-of-the-most-752725282.jpg?w=1440" alt="Foto">
+          <span class="categoria">Paris</span>
+            <h2> Vistas de Paris</h2>
+            <p>Esta es una de las vistas que puedes tener de la torre Eiffel en Paris</p>
+            <small>18/10/25</small>
+        </div>
+             <div class="tarjeta">
+            <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/gettyimages-612218044.webp?w=1450&h=816" alt="Foto">
+            <span class="categoria">Japon</span>
+            <h2>Vista de Japom</h2>
+            <p>Estas son las vistas de Japon</p>
+                <small>04/11/09</small>
+        </div>
+        <div class="tarjeta">
+            <img src="https://elviajerofeliz.com/wp-content/uploads/2020/05/10-Ciudades-de-Italia.-Roma.jpg" alt="Foto">
+            <span class="categoria">Italia </span>
+            <h2>Vistas de Italia</h2>
+            <p>Estas son las vistas de Italia Roma</p>
+            <small>27/07/27</small>
+        </div>
+        </div>
+    </body>
+</html>

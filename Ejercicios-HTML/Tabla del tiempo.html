@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .linea-tiempo{
+                position: relative;
+                width: 100%;
+            }
+            .linea-tiempo::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    top: 0;
+bottom: 0;
+    background-color: black;
+    left: 50%;
+    z-index: 0;
+}
+z-index {
+    transform: translatex(-50%); left :50%
+}
+.evento {
+    position: relative;
+    width: 45%;
+    padding: 15px;
+     box-sizing: border-box;
+}
+.evento {
+    background-color: pink;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+    z-index: 1;
+}
+.izquierda  {
+    left: 0;
+}
+.derecha    {
+    left:55%;
+}
+.evento::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: purple;
+    border-radius: 50%;
+    top: 20px;
+    right: -8px;
+}
+.derecha::before    {
+    left: -8px;
+}
+            </style>
+    </head>
+<body>
+  <div class="linea-tiempo">
+    <h1>LA GUERRA MUNDIAL</h1>
+        <h2> Primeros años</h2>
+        <p> La Segunda Guerra Mundial fue un conflicto militar global que se desarrolló entre 1939 y 1945. Enfrentó principalmente a dos grandes grupos: los Aliados, liderados por países como Estados Unidos, Reino Unido y la Unión Soviética, y las Potencias del Eje, encabezadas por Alemania, Italia y Japón.</p>
+  
+
+    <div class="evento izquierda">
+    <h2> Causas principales</h2>
+        <p>- El descontento de Alemania por las condiciones del Tratado de Versalles.
+- El expansionismo territorial de Alemania, Italia y Japón.
+- El crecimiento de gobiernos totalitarios y nacionalistas.
+- Las tensiones políticas y económicas posteriores a la Primera Guerra Mundial.</p>
+</div>
+    <div class="evento derecha">
+    <h2>Acontecimientos importantes</h2>
+    <p>1939: Alemania invade Polonia y comienza la guerra.</p>
+<P>1941: Japón ataca Pearl Harbor y Estados Unidos entra en el conflicto.</p>
+
+<P>1944: Los Aliados desembarcan en Normandía, Francia.</p>
+
+<P>1945: Alemania se rinde en mayo y Japón en septiembre, finalizando la guerra</p>
+</div>
+<div class="evento izquierda">
+    <h2> Consecuencias</h2>
+    <p> La guerra dejó millones de personas fallecidas, ciudades destruidas y graves consecuencias económicas y sociales. También provocó la creación de la Organización de las Naciones Unidas (ONU) en 1945 y el inicio de la Guerra Fría entre Estados Unidos y la Unión Soviética.</p>
+</div>
+  </div>
+    </body>
+</html>

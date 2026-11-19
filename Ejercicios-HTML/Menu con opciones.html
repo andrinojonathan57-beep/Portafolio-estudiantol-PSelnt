@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .menu{
+                display: flex;
+                list-style: none;
+                background-color: Pink;
+                padding: 15px;
+                gap: 30px;
+            }
+            .menu li {
+                color: White;
+                cursor: pointer;
+            }
+            .submenu{
+                display: none;
+                list-style: none;
+                background-color: Purple;
+                padding: 10px;}
+                .submenu li{
+                    padding: 10px;
+                }
+                .submenu li:hover{
+                    background-color: violet;
+                }
+            .desplegable:hover 
+            .submenu {
+    display: block; }
+    .desplegable {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+            </style>
+    </head>
+    <body>
+        <nav>
+            <ul class="menu">
+                <li> Inicio </li>
+                <li class="desplegable">
+                    Investigacion
+                    <ul class="submenu">
+                        <Li>Historia</Li>
+                        <li>Ciencia</li>
+                        <li>Tecnologia</li>
+                    </ul>
+                </li>
+                <li>Contactos</li>
+            </ul>
+        </nav>             
+    </body>
+</html>
