@@ -1,6 +1,6 @@
 Algoritmo Cuadrado
 	Definir Lado, area,perimetro Como Real
-	Escribir "Ingrese el tamaño del cuadrado ,"
+	Escribir "Ingrese el tamaÃ±o del cuadrado ,"
 	Leer Lado
 	Area<- Lado*lado
 	perimetro<- Lado*4
